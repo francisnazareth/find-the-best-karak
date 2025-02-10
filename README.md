@@ -14,23 +14,23 @@
 
 ## Setup
 
- 1. Create a new repository on GitHub to store your project files
+1. Create a new repository on GitHub to store your project files
 
     ![Create a new repository on GitHub](./Assets/image.png)
 
- 2. Give a repository name and description, and choose whether to make it public or private
+2. Give a repository name and description, and choose whether to make it public or private
 
     ![Create a new repository scree](./Assets/image-1.png)
 
- 3. Copy the repository URL
+3. Copy the repository URL
 
     ![Copy the repository URL](./Assets/image-2.png)
 
- 4. Clone the repository to your local machine using VSCode
+4. Clone the repository to your local machine using VSCode
 
     ![Clone the repository in VSCode](./Assets/image-3.png)
 
- 5. Open the project in your code editor
+5. Open the project in your code editor
 
     ![Open the project in your VSCode](./Assets/image-4.png)
 
@@ -47,10 +47,9 @@
  1. Use your imagination to ask Copilot to create the necessary files for your project
 
     <details>
-        <summary>Here is a good prompt that you can use</summary>
+        <summary>Here is a good prompt that you can use </summary>
 
         I'm creating a simple online treasure hunt game called "Find the Best Karak" using HTML and JavaScript. The game will provide clues based on touristic places in Qatar, and the player will enter the name of the location to proceed.
-        Please help me generate the basic HTML and JavaScript files needed for this game.The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button. The JavaScript file will contain the logic for generating clues and checking the player's input.
-    </details>
+        Please help me generate the basic HTML, JavaScript and CSS files needed for this game.The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button. The JavaScript file will contain the logic for generating clues and checking the player's input.
 
-
+   </details>
