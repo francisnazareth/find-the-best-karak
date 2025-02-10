@@ -56,3 +56,45 @@
         The JavaScript file will contain the logic for generating clues and checking the player's input.
 
    </details>
+
+If everything goes well, Copilot will generate the necessary files for your project. You just need to click the "Create Workspace" button and select the folder where you want to save the files.
+
+   ![Create Workspace](./Assets/image-6.png)
+
+### Task 3: Test the Game
+
+ 1. Open the `index.html` file in VSCode and click Run and Debug on the left side of VSCode or ```Ctrl+Shift+D``` to open the debug view. Then click the 'Run and Debug' button to run the game in the browser.
+
+    ![Open index.html in browser](./Assets/image-7.png)
+
+ 2. Follow the instructions to play the game and see if it works as expected
+
+    ![Gameplay](./Assets/image-8.png)
+
+> [!IMPORTANT]  
+> You might need to update the `script.js` or `index.html` file to fix any issues or add more functionality to the game
+
+### Task 4: Customize the Game
+
+ 1. Modify the game logic in the `script.js` file to add more clues and locations
+
+    ```javascript
+    // Add more locations and clues
+    const locations = {
+        "Doha Corniche": "A beautiful waterfront promenade in the heart of Doha.",
+        "Souq Waqif": "A traditional market with cafes, restaurants, and shops.",
+        "The Pearl-Qatar": "An artificial island with luxury residences and shopping.",
+        "Katara Cultural Village": "A cultural hub with theaters, galleries, and restaurants.",
+    };
+    ```
+
+ 2. Update the game interface in the `index.html` file to improve the user experience
+
+    ```html
+    <!-- Update the game interface -->
+    <h1>Find the Best Karak</h1>
+    <p>Enter the name of the location to get the next clue:</p>
+    <input type="text" id="locationInput" placeholder="Enter location name">
+    <button onclick="checkLocation()">Submit</button>
+    <p id="clue"></p>
+    ```
