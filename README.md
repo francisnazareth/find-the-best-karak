@@ -44,7 +44,7 @@
 
 ### Task 2: Ask GitHub Copilot to Create your workspace with neccessary files
 
- 1. Use your imagination to ask Copilot to create the necessary files for your project
+ 1. Use your creativity to ask Copilot to create the necessary files for your project.
 
     <details>
         <summary>Here is a good prompt that you can use </summary>
@@ -57,7 +57,7 @@
 
    </details>
 
-If everything goes well, Copilot will generate the necessary files for your project. You just need to click the "Create Workspace" button and select the folder where you want to save the files.
+If everything goes well, Copilot will generate the necessary files for your project. You just need to click the "Create Workspace" button and select the folder where you clone your repository.
 
    ![Create Workspace](./Assets/image-6.png)
 
@@ -88,13 +88,33 @@ If everything goes well, Copilot will generate the necessary files for your proj
     };
     ```
 
- 2. Update the game interface in the `index.html` file to improve the user experience
+ 2. Use GitHub Copilot to beutify the game interface in the `index.html` file.
+      <details>
+         <summary> Here is a good prompt that you can use </summary>
 
-    ```html
-    <!-- Update the game interface -->
-    <h1>Find the Best Karak</h1>
-    <p>Enter the name of the location to get the next clue:</p>
-    <input type="text" id="locationInput" placeholder="Enter location name">
-    <button onclick="checkLocation()">Submit</button>
-    <p id="clue"></p>
-    ```
+          I am looking for a bootstrap template for a website.  It should be a minimal and dark toned template. Can you find me one and share the link?
+      </details>
+
+      If everything goes well, Copilot will find you a bootstrap template for you to use in your project.
+         ![Copilot response](./Assets/image-9.png)
+
+### Task 5: Commit and Push Changes
+
+   1. Once you are satisfied with the changes, save the files and commit them to your local repository. Click the source control button on the left panel of VSCode and enter a commit message.
+
+      ![Commit changes](./Assets/image-10.png)
+
+   2. You can also use GitHub Copilot to generate a commit message with small magic button in the message box.
+
+      ![Generate commit message](./Assets/image-11.png)
+
+   3. Sync the changes to your GitHub repository
+
+      ![Push changes to GitHub](./Assets/image-12.png)
+
+### Task 6: Share your Project
+
+ 1. Share the link to your GitHub repository with friends and family to showcase your treasure hunt game
+
+   > [!TIP]
+   > Check out my online treasure hunt game "Find the Best Karak" on GitHub: [Repository Link]
