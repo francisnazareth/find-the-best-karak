@@ -25,3 +25,64 @@ button {
     font-size: 1em;
     cursor: pointer;
 }
+
+#karak-list {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#karak-list h2 {
+    margin-top: 0;
+}
+
+#places-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#places-list li {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+#places-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.star-rating {
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    display: inline-block;
+    font-size: 20px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input:checked ~ label {
+    color: #f5b301;
+}

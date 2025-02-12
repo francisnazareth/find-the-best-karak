@@ -35,6 +35,23 @@ function addMarker(clue) {
     markers.push(marker);
 }
 
+function addPlaceToList(clue) {
+    const placesList = document.getElementById('places-list');
+    const listItem = document.createElement('li');
+    listItem.innerHTML = `
+        <span>${clue.location}</span>
+        <img src="${clue.image}" alt="${clue.location}">
+        <div class="star-rating">
+            <input type="radio" id="${clue.location}-star5" name="${clue.location}" value="5"><label for="${clue.location}-star5">★</label>
+            <input type="radio" id="${clue.location}-star4" name="${clue.location}" value="4"><label for="${clue.location}-star4">★</label>
+            <input type="radio" id="${clue.location}-star3" name="${clue.location}" value="3"><label for="${clue.location}-star3">★</label>
+            <input type="radio" id="${clue.location}-star2" name="${clue.location}" value="2"><label for="${clue.location}-star2">★</label>
+            <input type="radio" id="${clue.location}-star1" name="${clue.location}" value="1"><label for="${clue.location}-star1">★</label>
+        </div>
+    `;
+    placesList.appendChild(listItem);
+}
+
 function displayClue() {
     if (clues.length > 0) {
         document.getElementById('clue').innerText = clues[currentClueIndex].clue;
@@ -46,6 +63,7 @@ function checkLocation() {
     const userInput = document.getElementById('location').value;
     if (userInput.toLowerCase() === clues[currentClueIndex].location.toLowerCase()) {
         addMarker(clues[currentClueIndex]);
+        addPlaceToList(clues[currentClueIndex]);
         currentClueIndex++;
         document.getElementById('location').value = '';
         if (currentClueIndex < clues.length) {
