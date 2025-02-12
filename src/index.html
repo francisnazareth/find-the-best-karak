@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Best Karak</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBANPyhA1Lb3Mykx3Bo_L8txcuqfOArfa4&callback=initMap" async defer></script>
+</head>
+<body>
+    <h1>Find the Best Karak</h1>
+    <p id="clue">Welcome to the treasure hunt! Your first clue is coming up...</p>
+    <input type="text" id="location" placeholder="Enter the location">
+    <button onclick="checkLocation()">Submit</button>
+    <div id="map" style="height: 500px; width: 100%;"></div>
+    <script src="script.js"></script>
+</body>
+</html>

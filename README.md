@@ -120,4 +120,4 @@ If everything goes well, Copilot will generate the necessary files for your proj
    > Check out my online treasure hunt game "Find the Best Karak" on GitHub: [Repository Link]
 
 ## Congratulations!
-![alt text](image-13.png)
+![Congratulations](./Assets/image-13.png)
