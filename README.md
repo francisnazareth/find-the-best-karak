@@ -80,7 +80,7 @@
 > [!TIP]
 > http-server is a simple, zero-configuration command-line static HTTP server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development and learning.
 
- 3.Follow the instructions to play the game and see if it works as expected
+ 3.Open the browser and navigate to the "http://localhost:{port number}/src/". In my case it's 8082
 
     ![Gameplay](./Assets/image-8.png)
 
