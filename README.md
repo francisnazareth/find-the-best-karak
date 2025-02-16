@@ -14,23 +14,23 @@
 
 ## Setup
 
-1. Create a new repository on GitHub to store your project files
+1. Fork the repository on GitHub to store your project files.
 
-    ![Create a new repository on GitHub](./Assets/image.png)
+    ![Fork the repository on GitHub](./Assets/image.png)
 
-2. Give a repository name and description, and choose whether to make it public or private
+2. Give a repository name and description.
 
     ![Create a new repository scree](./Assets/image-1.png)
 
-3. Copy the repository URL
+3. Copy the repository URL.
 
     ![Copy the repository URL](./Assets/image-2.png)
 
-4. Clone the repository to your local machine using VSCode
+4. Clone the repository to your local machine using VSCode.
 
     ![Clone the repository in VSCode](./Assets/image-3.png)
 
-5. Open the project in your code editor
+5. Open the project in your code editor.
 
     ![Open the project in your VSCode](./Assets/image-4.png)
 
