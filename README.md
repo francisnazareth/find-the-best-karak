@@ -38,9 +38,16 @@
 
 ### Task 1: Open GitHub Copilot Chat
 
- 1. Open the Chat view from the Command Center Copilot menu or press ```Ctrl+Alt+I```
+ 1. Open the Copilot Edits view from the Command Center Copilot menu or press ```Ctrl+Shift+I```
 
     ![Open Copilot chat](./Assets/image-5.png)
+
+    Then drag and drop the clues.json file from Explorer tab to "Working Set" field on the Copilot panel.
+
+    ![Drag and Drop file to working set](./Assets/image-14.png)
+
+> [!TIP]
+> Use Copilot Edits to start an AI-powered code editing session and iterate quickly on code changes across multiple files by using natural language. Copilot Edits applies the edits directly in the editor, where you can review them in-place, with the full context of the surrounding code.
 
 ### Task 2: Ask GitHub Copilot to Create your workspace with neccessary files
 
@@ -51,13 +58,13 @@
 
        I'm creating a simple online treasure hunt game called "Find the Best Karak" using HTML and JavaScript. 
        The game will provide clues based on touristic places in Qatar, and the player will enter the name of the location to proceed. You can find the clues and answers in clues.json inside the src folder.
-       Please help me generate the basic HTML, JavaScript and CSS files needed for this game.
-       The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button. 
+       Please help me generate the basic HTML, JavaScript and CSS files needed for this game in the src folder.
+       The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button.
        The JavaScript file will contain the logic for fetching the clues from the clues.json and present it on the html.
 
    </details>
 
-If everything goes well, Copilot will generate the necessary files for your project. You just need to click the "Create Workspace" button and select the folder where you clone your repository.
+If everything goes well, Copilot will generate the necessary files for your project. You just need to click the "Create Workspace" button and select the "src" folder.
 
    ![Create Workspace](./Assets/image-6.png)
 
