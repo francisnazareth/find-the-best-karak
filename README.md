@@ -56,10 +56,10 @@
     <details>
         <summary>Here is a good prompt that you can use.</summary>
 
-       I'm creating a simple online treasure hunt game called "Find the Best Karak" using HTML and JavaScript. 
-       The game will provide clues based on touristic places in Qatar, and the player will enter the name of the location to proceed. You can find the clues and answers in clues.json.
-       Please help me generate the basic HTML, JavaScript and CSS files needed for this game in the src folder.
-       The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button.
+         I'm creating a simple online treasure hunt game called "Find the Best Karak" using HTML and JavaScript. 
+         The game will provide clues based on touristic places in Qatar, and the player will enter the name of the location to proceed. You can find the clues and answers in clues.json.
+         Please help me generate the basic HTML, JavaScript and CSS files needed for this game in the src folder.
+         The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button.
        The JavaScript file will contain the logic for fetching the clues from the clues.json and present it on the html.
 
    </details>
@@ -85,31 +85,25 @@
    ![Gameplay](./Assets/image-8.png)
 
 > [!IMPORTANT]  
-> You might need to update the `script.js` or `index.html` file to fix any issues or add more functionality to the game
+> You may need to update the `script.js` or `index.html` files to resolve any issues or to enhance the game's functionality.
 
-### Task 4: Customize the Game
+### Task 4: Show the Best Karak locations on Map
 
- 1. Modify the game logic in the `script.js` file to add more clues and locations
+1. Return to Visual Studio Code and inspect the "Working Set" panel. You should see all the newly created files alongside `clues.json`. If they are not visible, drag and drop them from the Explorer window again.
+   ![Working Set](./Assets/image-16.png)
 
-    ```javascript
-    // Add more locations and clues
-    const locations = {
-        "Doha Corniche": "A beautiful waterfront promenade in the heart of Doha.",
-        "Souq Waqif": "A traditional market with cafes, restaurants, and shops.",
-        "The Pearl-Qatar": "An artificial island with luxury residences and shopping.",
-        "Katara Cultural Village": "A cultural hub with theaters, galleries, and restaurants.",
-    };
-    ```
-
- 2. Use GitHub Copilot to beutify the game interface in the `index.html` file.
+2. Ask Copilot to add Google map into your application.
       <details>
-         <summary> Here is a good prompt that you can use </summary>
+      <summary> Here is a good prompt that you can use </summary>
 
-          I am looking for a bootstrap template for a website.  It should be a minimal and dark toned template. Can you find me one and share the link?
+       I want to add google map on my page. Whenever a user finds the right answer I want to show the location of the place on the map. you can find the latitude and longtime of the locations in clues.json
       </details>
 
-      If everything goes well, Copilot will find you a bootstrap template for you to use in your project.
-         ![Copilot response](./Assets/image-9.png)
+3. GitHub Copilot will generate the necessary modifications to your project files and prompt you to update the API Key in the HTML file. Review and accept the changes, then replace the placeholder API Key with your own.
+      ![Copilot response](./Assets/image-9.png)
+
+> [!IMPORTANT]  
+> Ask proctors to give you the Google Map API Key. 
 
 ### Task 5: Commit and Push Changes
 
