@@ -57,14 +57,14 @@
         <summary>Here is a good prompt that you can use </summary>
 
        I'm creating a simple online treasure hunt game called "Find the Best Karak" using HTML and JavaScript. 
-       The game will provide clues based on touristic places in Qatar, and the player will enter the name of the location to proceed. You can find the clues and answers in clues.json inside the src folder.
+       The game will provide clues based on touristic places in Qatar, and the player will enter the name of the location to proceed. You can find the clues and answers in clues.json.
        Please help me generate the basic HTML, JavaScript and CSS files needed for this game in the src folder.
-       The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button.
+       The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button. 
        The JavaScript file will contain the logic for fetching the clues from the clues.json and present it on the html.
 
    </details>
 
-If everything goes well, Copilot will generate the necessary files for your project. You just need to click the "Create Workspace" button and select the "src" folder.
+   If everything goes well, GitHub Copilot will generate the necessary files in the "src" folder. Review the generated files and "Accept" the changes if they meet your requirements. If the generated content is not satisfactory, press "Discard" and refine your prompt to improve the results.
 
    ![Create Workspace](./Assets/image-6.png)
 
