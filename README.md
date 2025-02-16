@@ -54,27 +54,33 @@
  1. Use your creativity to ask Copilot to create the necessary files for your project.
 
     <details>
-        <summary>Here is a good prompt that you can use </summary>
+        <summary>Here is a good prompt that you can use.</summary>
 
        I'm creating a simple online treasure hunt game called "Find the Best Karak" using HTML and JavaScript. 
        The game will provide clues based on touristic places in Qatar, and the player will enter the name of the location to proceed. You can find the clues and answers in clues.json.
        Please help me generate the basic HTML, JavaScript and CSS files needed for this game in the src folder.
-       The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button. 
+       The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button.
        The JavaScript file will contain the logic for fetching the clues from the clues.json and present it on the html.
 
    </details>
 
-   If everything goes well, GitHub Copilot will generate the necessary files in the "src" folder. Review the generated files and "Accept" the changes if they meet your requirements. If the generated content is not satisfactory, press "Discard" and refine your prompt to improve the results.
+2. If everything goes well, GitHub Copilot will generate the necessary files in the "src" folder. Review the generated files and "Accept" the changes if they meet your requirements. If the generated content is not satisfactory, press "Discard" and refine your prompt to improve the results.
 
    ![Create Workspace](./Assets/image-6.png)
 
 ### Task 3: Test the Game
 
- 1. Open the `index.html` file in VSCode and click Run and Debug on the left side of VSCode or ```Ctrl+Shift+D``` to open the debug view. Then click the 'Run and Debug' button to run the game in the browser.
+ 1. Open new terminal in VSCode from the Terminal menu on the top or press ```Ctrl+Shift+` ```
 
-    ![Open index.html in browser](./Assets/image-7.png)
+    ![Open terminal](./Assets/image-7.png)
 
- 2. Follow the instructions to play the game and see if it works as expected
+ 2.Then type ```http-server {FOLDER NAME}```  to run the game in the browser.
+   ![Terminal Output](./Assets/image-15.png)
+
+> [!TIP]
+> http-server is a simple, zero-configuration command-line static HTTP server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development and learning.
+
+ 3.Follow the instructions to play the game and see if it works as expected
 
     ![Gameplay](./Assets/image-8.png)
 
