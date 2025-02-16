@@ -82,7 +82,7 @@
 
  3.Open the browser and navigate to the "http://localhost:{port number}/src/". In my case it's 8082
 
-    ![Gameplay](./Assets/image-8.png)
+   ![Gameplay](./Assets/image-8.png)
 
 > [!IMPORTANT]  
 > You might need to update the `script.js` or `index.html` file to fix any issues or add more functionality to the game
