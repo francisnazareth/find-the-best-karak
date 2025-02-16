@@ -1,9 +1,9 @@
 [
-    { "location": "The Pearl-Qatar", "clue": "This is an artificial island and a luxurious residential area.", "lat": 25.368806, "lng": 51.538865, "image": "../../Assets/thepearlqatar.jpg" },
-    { "location": "Aspire Park", "clue": "A large park with green spaces, playgrounds, and walking trails.", "lat": 25.259801, "lng": 51.435540, "image": "../../Assets/aspirepark.jpg" },
-    { "location": "Qatar National Museum", "clue": "A museum showcasing Qatar's history and culture.", "lat": 25.287807, "lng": 51.549475, "image": "../../Assets/qatarnationalmuseum.jpg" },
-    { "location": "Souq Waqif", "clue": "A traditional market known for its vibrant atmosphere and local crafts.", "lat": 25.288104, "lng": 51.532673, "image": "../../Assets/souqwaqif.jpg" },
-    { "location": "Museum of Islamic Art", "clue": "This museum houses a vast collection of Islamic art from three continents.", "lat": 25.295415, "lng": 51.539442, "image": "../../Assets/museumofislamicart.jpg" },
-    { "location": "Katara Cultural Village", "clue": "A cultural hub that hosts art galleries, theaters, and restaurants.", "lat": 25.352591, "lng": 51.525385, "image": "../../Assets/katara.jpg" },
-    { "location": "Corniche", "clue": "A waterfront promenade that offers stunning views of the Doha skyline.", "lat": 25.312594, "lng": 51.521321, "image": "../../Assets/corniche.jpg" }
+    { "location": "The Pearl-Qatar", "clue": "This is an artificial island and a luxurious residential area.", "lat": 25.368806, "lng": 51.538865, "image": "../Images/thepearlqatar.jpg" },
+    { "location": "Aspire Park", "clue": "A large park with green spaces, playgrounds, and walking trails.", "lat": 25.259801, "lng": 51.435540, "image": "../Images/aspirepark.jpg" },
+    { "location": "Qatar National Museum", "clue": "A museum showcasing Qatar's history and culture.", "lat": 25.287807, "lng": 51.549475, "image": "../Images/qatarnationalmuseum.jpg" },
+    { "location": "Souq Waqif", "clue": "A traditional market known for its vibrant atmosphere and local crafts.", "lat": 25.288104, "lng": 51.532673, "image": "../Images/souqwaqif.jpg" },
+    { "location": "Museum of Islamic Art", "clue": "This museum houses a vast collection of Islamic art from three continents.", "lat": 25.295415, "lng": 51.539442, "image": "../Images/museumofislamicart.jpg" },
+    { "location": "Katara Cultural Village", "clue": "A cultural hub that hosts art galleries, theaters, and restaurants.", "lat": 25.352591, "lng": 51.525385, "image": "../Images/katara.jpg" },
+    { "location": "Corniche", "clue": "A waterfront promenade that offers stunning views of the Doha skyline.", "lat": 25.312594, "lng": 51.521321, "image": "../Images/corniche.jpg" }
 ]
