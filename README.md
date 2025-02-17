@@ -125,7 +125,10 @@
    <details>
       <summary> Here is a good prompt that you can use </summary>
 
-       I want to add a gallery view to my page. Whenever a user finds the right answer I want to show the image of the place in the gallery. you can find the image URLs of the locations in clues.json. Please help me to add the gallery view to the page and show the images of the places in the gallery.
+       I want to add a gallery view to my page. 
+       Whenever a user finds the right answer I want to show the image of the place in the gallery. 
+       You can find the image URLs of the locations in clues.json. 
+       Please help me to add the gallery view to the page and show the images of the places in the gallery.
    </details>
    &nbsp;
 2. GitHub Copilot will generate the necessary modifications to your project files. Review and accept the changes.
