@@ -38,11 +38,11 @@
 
 ### Task 1: Open GitHub Copilot Chat
 
- 1. Open the Copilot Edits view from the Command Center Copilot menu or press ```Ctrl+Shift+I```
+1. Open the Copilot Edits view from the Command Center Copilot menu or press ```Ctrl+Shift+I```
 
     ![Open Copilot chat](./Assets/image-5.png)
 
-    Then drag and drop the clues.json file from Explorer tab to "Working Set" field on the Copilot panel.
+2. Then drag and drop the clues.json file from Explorer tab to "Working Set" field on the Copilot panel.
 
     ![Drag and Drop file to working set](./Assets/image-14.png)
 
@@ -51,9 +51,9 @@
 
 ### Task 2: Ask GitHub Copilot to Create your workspace with neccessary files
 
- 1. Use your creativity to ask Copilot to create the necessary files for your project.
+1. Use your creativity to ask Copilot to create the necessary files for your project.
 
-    <details>
+   <details>
         <summary>Here is a good prompt that you can use.</summary>
 
          I'm creating a simple online treasure hunt game called "Find the Best Karak" using HTML and JavaScript. 
@@ -64,23 +64,24 @@
 
    </details>
 
-2. If everything goes well, GitHub Copilot will generate the necessary files in the "src" folder. Review the generated files and "Accept" the changes if they meet your requirements. If the generated content is not satisfactory, press "Discard" and refine your prompt to improve the results.
+2.If everything goes well, GitHub Copilot will generate the necessary files in the "src" folder. Review the generated files and "Accept" the changes if they meet your requirements. If the generated content is not satisfactory, press "Discard" and refine your prompt to improve the results.
 
    ![Create Workspace](./Assets/image-6.png)
 
 ### Task 3: Test the Game
 
- 1. Open new terminal in VSCode from the Terminal menu on the top or press ```Ctrl+Shift+` ```
+1. Open new terminal in VSCode from the Terminal menu on the top or press ```Ctrl+Shift+` ```
 
     ![Open terminal](./Assets/image-7.png)
 
- 2.Then type ```http-server {FOLDER NAME}```  to run the game in the browser.
+2.Then type ```http-server .```  to run the game in the browser.
+
    ![Terminal Output](./Assets/image-15.png)
 
 > [!TIP]
 > http-server is a simple, zero-configuration command-line static HTTP server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development and learning.
 
- 3.Open your web browser and navigate to `http://localhost:{port_number}/src/`. For example, if your port number is 8082, you would go to `http://localhost:8082/src/`.
+3.Open your web browser and navigate to `http://localhost:{port_number}/src/`. For example, if your port number is 8082, you would go to `http://localhost:8082/src/`.
 
    ![Gameplay](./Assets/image-8.png)
 
@@ -89,39 +90,45 @@
 
 ### Task 4: Show the Best Karak locations on Map
 
-1. Return to Visual Studio Code and inspect the "Working Set" panel. You should see all the newly created files alongside `clues.json`. If they are not visible, drag and drop them from the Explorer window again.
+1.Return to Visual Studio Code and inspect the "Working Set" panel. You should see all the newly created files alongside `clues.json`. If they are not visible, drag and drop them from the Explorer window again.
+   
    ![Working Set](./Assets/image-16.png)
 
-2. Ask Copilot to add Google map into your application.
-      <details>
+2.Ask Copilot to add Google map into your application.
+
+   <details>
       <summary> Here is a good prompt that you can use </summary>
+      I want to add google map on my page. Whenever a user finds the right answer I want to show the location of the place on the map. you can find the latitude and longtime of the locations in clues.json. Please help me to add the google map to the page and show the location of the places on the map.
+   </details>
 
-       I want to add google map on my page. Whenever a user finds the right answer I want to show the location of the place on the map. you can find the latitude and longtime of the locations in clues.json
-      </details>
+3.GitHub Copilot will generate the necessary modifications to your project files and prompt you to update the API Key in the HTML file. Review and accept the changes, then replace the placeholder API Key with your own.
 
-3. GitHub Copilot will generate the necessary modifications to your project files and prompt you to update the API Key in the HTML file. Review and accept the changes, then replace the placeholder API Key with your own.
-      ![Copilot response](./Assets/image-9.png)
+   ![Copilot response](./Assets/image-9.png)
 
 > [!IMPORTANT]  
 > Ask proctors to give you the Google Map API Key.
 
+4.Run and test the application again. When the player enters the correct location, the game should display the location on the map. At the end of the game, all the locations should be visible on the map. If application is not working as expected, review the code and make necessary changes with the help of Copilot.
+
+   ![Website showin the clues location on the map](./Assets/image-17.png)
+
 ### Task 5: Commit and Push Changes
 
-   1. Once you are satisfied with the changes, save the files and commit them to your local repository. Click the source control button on the left panel of VSCode and enter a commit message.
+1. Once you are satisfied with the changes, save the files and commit them to your local repository. Click the source control button on the left panel of VSCode and enter a commit message.
 
-      ![Commit changes](./Assets/image-10.png)
+   ![Commit changes](./Assets/image-10.png)
 
-   2. You can also use GitHub Copilot to generate a commit message with small magic button in the message box.
+2. You can also use GitHub Copilot to generate a commit message with small magic button in the message box.
 
-      ![Generate commit message](./Assets/image-11.png)
+   ![Generate commit message](./Assets/image-11.png)
 
-   3. Sync the changes to your GitHub repository
+3. Sync the changes to your GitHub repository
 
-      ![Push changes to GitHub](./Assets/image-12.png)
+   ![Push changes to GitHub](./Assets/image-12.png)
 
 ### Task 6: Share your Project
 
- 1. Share the link to your GitHub repository with friends and family to showcase your treasure hunt game
+1. Share the link to your GitHub repository with friends and family to showcase your treasure hunt game
 
    > [!TIP]
    > Check out my online treasure hunt game "Find the Best Karak" on GitHub: [Repository Link]
