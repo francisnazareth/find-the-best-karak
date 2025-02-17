@@ -124,9 +124,10 @@
 
    <details>
       <summary> Here is a good prompt that you can use </summary>
+
       I want to add a gallery view to my page. Whenever a user finds the right answer I want to show the image of the place in the gallery. you can find the image URLs of the locations in clues.json. Please help me to add the gallery view to the page and show the images of the places in the gallery.
    </details>
-
+   &nbsp;
 2. GitHub Copilot will generate the necessary modifications to your project files. Review and accept the changes.
 3. Test the application again. When the player enters the correct location, the game should display the image of the location in the gallery view. At the end of the game, all the images should be visible in the gallery. If application is not working as expected, review the code and make necessary changes with the help of Copilot.
 
@@ -134,7 +135,7 @@
 
 ### Task 6: Improve the application with additional features
 
-### Task 6: Enhance the Application with Additional Features
+### Task 7: Enhance the Application with Additional Features
 
 1. We have incorporated the location name and a 5-star rating system for each location in the final solution. Now, it's your opportunity to showcase your creativity by adding extra features to your application. Consider the following enhancements:
 
@@ -146,7 +147,7 @@
 
    ![Enhance Application](./Assets/image-19.png)
 
-### Task 7: Commit and Push Changes
+### Task 8: Commit and Push Changes
 
 1. Once you are satisfied with the changes, save the files and end your GitHub Copilot edit session by clicking the "Done" button. Commit the changes to your local repository by clicking the source control button on the left panel of VSCode and entering a commit message.
 
@@ -160,7 +161,7 @@
 
    ![Push changes to GitHub](./Assets/image-12.png)
 
-### Task 6: Share your Project
+### Task 9: Share your Project
 
 1. Share the link to your GitHub repository with friends and family to showcase your treasure hunt game
 
