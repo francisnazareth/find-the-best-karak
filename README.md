@@ -100,7 +100,7 @@
 
    <details>
       <summary> Here is a good prompt that you can use </summary>
-      I want to add google map on my page. Whenever a user finds the right answer I want to show the location of the place on the map. you can find the latitude and longtime of the locations in clues.json. Please help me to add the google map to the page and show the location of the places on the map.
+         I want to add google map on my page. Whenever a user finds the right answer I want to show the location of the place on the map. you can find the latitude and longtime of the locations in clues.json. Please help me to add the google map to the page and show the location of the places on the map.
    </details>
 &nbsp;
 
