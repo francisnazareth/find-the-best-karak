@@ -51,7 +51,7 @@
 
 ### Task 2: Ask GitHub Copilot to Create your workspace with neccessary files
 
-1. Use your creativity to ask Copilot to create the necessary files for your project.
+1. Use your creativity to ask Copilot to create the necessary files for your project. You can provide a prompt that describes the game you want to build and the features you need. For example, you can ask Copilot to generate an HTML file with a heading, paragraph, input field, and submit button, as well as a JavaScript file to fetch clues from a JSON file.
 
    <details>
         <summary>Here is a good prompt that you can use.</summary>
@@ -63,8 +63,9 @@
        The JavaScript file will contain the logic for fetching the clues from the clues.json and present it on the html.
 
    </details>
+   &nbsp;
 
-2.If everything goes well, GitHub Copilot will generate the necessary files in the "src" folder. Review the generated files and "Accept" the changes if they meet your requirements. If the generated content is not satisfactory, press "Discard" and refine your prompt to improve the results.
+2. If everything goes well, GitHub Copilot will generate the necessary files in the "src" folder. Review the generated files and "Accept" the changes if they meet your requirements. If the generated content is not satisfactory, press "Discard" and refine your prompt to improve the results.
 
    ![Create Workspace](./Assets/image-6.png)
 
@@ -77,6 +78,7 @@
 2. Then type ```http-server .```  to run the game in the browser.
 
    ![Terminal Output](./Assets/image-15.png)
+   &nbsp;
 
 > [!TIP]
 > http-server is a simple, zero-configuration command-line static HTTP server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development and learning.
@@ -105,7 +107,8 @@
 3. GitHub Copilot will generate the necessary modifications to your project files and prompt you to update the API Key in the HTML file. Review and accept the changes, then replace the placeholder API Key with your own.
 
    ![Copilot response](./Assets/image-9.png)
-
+   &nbsp;
+   
 > [!IMPORTANT]  
 > Ask proctors to give you the Google Map API Key.
 
