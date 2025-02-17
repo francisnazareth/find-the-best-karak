@@ -80,7 +80,7 @@
 > [!TIP]
 > http-server is a simple, zero-configuration command-line static HTTP server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development and learning.
 
-3. Open your web browser and navigate to `http://localhost:{port_number}/src/`. For example, if your port number is 8082, you would go to `http://localhost:8082/src/`.
+ 3.Open your web browser and navigate to `http://localhost:{port_number}/src/`. For example, if your port number is 8082, you would go to `http://localhost:8082/src/`.
 
    ![Gameplay](./Assets/image-8.png)
 
@@ -103,7 +103,7 @@
       ![Copilot response](./Assets/image-9.png)
 
 > [!IMPORTANT]  
-> Ask proctors to give you the Google Map API Key. 
+> Ask proctors to give you the Google Map API Key.
 
 ### Task 5: Commit and Push Changes
 
@@ -126,5 +126,6 @@
    > [!TIP]
    > Check out my online treasure hunt game "Find the Best Karak" on GitHub: [Repository Link]
 
-## Congratulations!
+## Congratulations
+
 ![Congratulations](./Assets/image-13.png)
