@@ -60,7 +60,7 @@
          The game will provide clues based on touristic places in Qatar, and the player will enter the name of the location to proceed. You can find the clues and answers in clues.json.
          Please help me generate the basic HTML, JavaScript and CSS files needed for this game in the src folder.
          The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button.
-       The JavaScript file will contain the logic for fetching the clues from the clues.json and present it on the html.
+         The JavaScript file will contain the logic for fetching the clues from the clues.json and present it on the html.
 
    </details>
    &nbsp;
@@ -108,7 +108,7 @@
 
    ![Copilot response](./Assets/image-9.png)
    &nbsp;
-   
+
 > [!IMPORTANT]  
 > Ask proctors to give you the Google Map API Key.
 
