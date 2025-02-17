@@ -70,18 +70,18 @@
 
 ### Task 3: Test the Game
 
-1. Open new terminal in VSCode from the Terminal menu on the top or press ```Ctrl+Shift+` ```
+1. Open new terminal in VSCode from the Terminal menu on the top or press ```Ctrl+Shift+` ```.
 
     ![Open terminal](./Assets/image-7.png)
 
-2.Then type ```http-server .```  to run the game in the browser.
+2. Then type ```http-server .```  to run the game in the browser.
 
    ![Terminal Output](./Assets/image-15.png)
 
 > [!TIP]
 > http-server is a simple, zero-configuration command-line static HTTP server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development and learning.
 
-3.Open your web browser and navigate to `http://localhost:{port_number}/src/`. For example, if your port number is 8082, you would go to `http://localhost:8082/src/`.
+3. Open your web browser and navigate to `http://localhost:{port_number}/src/`. For example, if your port number is 8082, you would go to `http://localhost:8082/src/`.
 
    ![Gameplay](./Assets/image-8.png)
 
@@ -90,31 +90,60 @@
 
 ### Task 4: Show the Best Karak locations on Map
 
-1.Return to Visual Studio Code and inspect the "Working Set" panel. You should see all the newly created files alongside `clues.json`. If they are not visible, drag and drop them from the Explorer window again.
-   
+1. Return to Visual Studio Code and inspect the "Working Set" panel. You should see all the newly created files alongside `clues.json`. If they are not visible, drag and drop them from the Explorer window again.
+
    ![Working Set](./Assets/image-16.png)
 
-2.Ask Copilot to add Google map into your application.
+2. Ask Copilot to add Google map into your application.
 
    <details>
       <summary> Here is a good prompt that you can use </summary>
       I want to add google map on my page. Whenever a user finds the right answer I want to show the location of the place on the map. you can find the latitude and longtime of the locations in clues.json. Please help me to add the google map to the page and show the location of the places on the map.
    </details>
+&nbsp;
 
-3.GitHub Copilot will generate the necessary modifications to your project files and prompt you to update the API Key in the HTML file. Review and accept the changes, then replace the placeholder API Key with your own.
+3. GitHub Copilot will generate the necessary modifications to your project files and prompt you to update the API Key in the HTML file. Review and accept the changes, then replace the placeholder API Key with your own.
 
    ![Copilot response](./Assets/image-9.png)
 
 > [!IMPORTANT]  
 > Ask proctors to give you the Google Map API Key.
 
-4.Run and test the application again. When the player enters the correct location, the game should display the location on the map. At the end of the game, all the locations should be visible on the map. If application is not working as expected, review the code and make necessary changes with the help of Copilot.
+4. Run and test the application again. When the player enters the correct location, the game should display the location on the map. At the end of the game, all the locations should be visible on the map. If application is not working as expected, review the code and make necessary changes with the help of Copilot.
 
    ![Website showin the clues location on the map](./Assets/image-17.png)
 
-### Task 5: Commit and Push Changes
+### Task 5: Show the Images of places in a Gallery View
 
-1. Once you are satisfied with the changes, save the files and commit them to your local repository. Click the source control button on the left panel of VSCode and enter a commit message.
+1. Ask Copilot to add a gallery view to display images of the locations.
+
+   <details>
+      <summary> Here is a good prompt that you can use </summary>
+      I want to add a gallery view to my page. Whenever a user finds the right answer I want to show the image of the place in the gallery. you can find the image URLs of the locations in clues.json. Please help me to add the gallery view to the page and show the images of the places in the gallery.
+   </details>
+
+2. GitHub Copilot will generate the necessary modifications to your project files. Review and accept the changes.
+3. Test the application again. When the player enters the correct location, the game should display the image of the location in the gallery view. At the end of the game, all the images should be visible in the gallery. If application is not working as expected, review the code and make necessary changes with the help of Copilot.
+
+   ![Website showing the images of the locations in the gallery](./Assets/image-18.png)
+
+### Task 6: Improve the application with additional features
+
+### Task 6: Enhance the Application with Additional Features
+
+1. We have incorporated the location name and a 5-star rating system for each location in the final solution. Now, it's your opportunity to showcase your creativity by adding extra features to your application. Consider the following enhancements:
+
+   * Add a timer to challenge players to complete the game within a certain timeframe.
+   * Enhance the user interface with animations and transitions for a more engaging experience.
+   * Include sound effects and background music to make the game more immersive.
+
+2. Use GitHub Copilot to assist you in implementing these features. Review and test the changes thoroughly to ensure they meet your requirements.
+
+   ![Enhance Application](./Assets/image-19.png)
+
+### Task 7: Commit and Push Changes
+
+1. Once you are satisfied with the changes, save the files and end your GitHub Copilot edit session by clicking the "Done" button. Commit the changes to your local repository by clicking the source control button on the left panel of VSCode and entering a commit message.
 
    ![Commit changes](./Assets/image-10.png)
 
