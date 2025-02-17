@@ -166,8 +166,8 @@
 
 1. Share the link to your GitHub repository with friends and family to showcase your treasure hunt game
 
-   > [!TIP]
-   > Check out my online treasure hunt game "Find the Best Karak" on GitHub: [Repository Link]
+> [!TIP]
+> Check out my online treasure hunt game "Find the Best Karak" on GitHub: [Repository Link]
 
 ## Congratulations
 
