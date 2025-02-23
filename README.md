@@ -36,7 +36,9 @@
 5. Open the project in your code editor.
 
     ![Open the project in your VSCode](./Assets/image-4.png)
-
+   
+6. If prompted to trust the authors, click on "Yes, I trust the authors".
+   
 ## Development
 
 ### Task 1: Open GitHub Copilot Chat
