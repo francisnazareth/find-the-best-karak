@@ -11,6 +11,9 @@
 * GitHub account with access to GitHub Copilot.
 
 * Visual Studio Code
+  ```bash
+  https://code.visualstudio.com/download
+  ```
 
 ## Setup
 
