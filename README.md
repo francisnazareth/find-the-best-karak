@@ -29,7 +29,7 @@
 
     ![Copy the repository URL](./Assets/image-2.png)
 
-4. Clone the repository to your local machine using VSCode.
+4. Clone the repository to your local machine using VSCode. (from the Source Control view:  (CTRL + SHIFT + G)) 
 
     ![Clone the repository in VSCode](./Assets/image-3.png)
 
