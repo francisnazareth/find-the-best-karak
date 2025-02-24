@@ -131,7 +131,7 @@ GitHub Copilot will generate the necessary modifications to your project files. 
         Please display the rating values when user selects a rating. For example, Taste: (4/5) when user selects 4 stars.
    </details>
 
-4. Ask Copilot to enter their feedback for restaurants.
+4. Ask Copilot to provide user feedback option for restaurants.
    <details>
       <summary> Here is a good prompt that you can use </summary>
  
@@ -151,11 +151,11 @@ GitHub Copilot will generate the necessary modifications to your project files. 
    <details>
        <summary>Here is a good prompt that you can use. </summary>
 
-       add an Azure map icon next to the restaurant name. The latitude and longitude are provided in karak.json. When the user clicks the map icon, the map with restaurant location should be displayed in a pop-up screen.
+       Add an Azure map icon next to the restaurant name. The latitude and longitude are provided in karak.json. When the user clicks the map icon, the map with restaurant location should be displayed in a pop-up screen.
    </details>
 
 > [!TIP]
-> Ask the proctor for Azure Maps subscription key. 
+> Ask the proctor for Azure Maps subscription key. You will need to replace the variable YOUR_AZURE_MAPS_SUBSCRIPTION_KEY with the Azure maps subscription key, in the javascript file. 
 
 
 The final website may resemble the following image: 
