@@ -168,9 +168,9 @@ The final website may resemble the following image:
 1. Now, it's your opportunity to showcase your creativity by adding extra features to your application. Consider the following enhancements:
 
    * Create an REST server in Node.JS (or Python) using Copilot, that will receive a JSON payload, print the contents, and return with HTTP 200/OK status.
-   ```bash
-   Create a Node.js server program that listens to HTTP Posts on a JSON payload and prints the JSON payload contents, and responds with 200 OK. Enable the server.js program to receive CORS requests from the browser, for the localhost.
-   ```
+     ```bash
+     Create a Node.js server program that listens to HTTP Posts on a JSON payload and prints the JSON payload contents, and responds with 200 OK. Enable the server.js program to receive CORS requests from the browser, for the localhost.
+     ```
    * Send the user rating and feedback (from the web page script) to the REST server.
      ```bash
      Clicking on the submit feedback button should make an Ajax HTTP Post request to http://localhost:3000/payload with the JSON payload containing user's ratings and feedback.
@@ -185,6 +185,8 @@ The final website may resemble the following image:
      ```bash
      Once the user logs in, the login email or phone number should be stored in a session variable. the login button display should be replaced by the user email / phone number.
      ```
+   * Create a MongoDB table named user_Feedback containing the following fields: userID, userComments, Taste_Rating, Ambience_Rating, Fragrance_Rating, ValueForMoney_Rating, Overall_Rating
+   * Change the Node.JS program to connect to the MongoDB and insert the JSON fields to the user_Feedback table.  
 
   Use GitHub Copilot to assist you in implementing these features. Review and test the changes thoroughly to ensure they meet your requirements.
 
