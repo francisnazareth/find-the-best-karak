@@ -167,10 +167,13 @@ The final website may resemble the following image:
 1. Now, it's your opportunity to showcase your creativity by adding extra features to your application. Consider the following enhancements:
 
    * Create an REST server in Node.JS (or Python) using Copilot, that will receive a JSON payload, print the contents, and return with HTTP 200/OK status.
+   ```bash
+   create a Node.js server program that listens to HTTP Posts on a JSON payload and prints the JSON payload contents, and responds with 200 OK.
+   ```
    * Send the user rating and feedback (from the web page script) to the REST server.
    * Provide social media based single-sign on options for users (for example, sign-in using outlook / facebook). 
 
-2. Use GitHub Copilot to assist you in implementing these features. Review and test the changes thoroughly to ensure they meet your requirements.
+1. Use GitHub Copilot to assist you in implementing these features. Review and test the changes thoroughly to ensure they meet your requirements.
 
 
 ### Task 7: Commit and Push Changes
