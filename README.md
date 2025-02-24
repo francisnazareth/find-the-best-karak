@@ -9,16 +9,9 @@
 * Basic knowledge of HTML and JavaScript
 
 * Visual Studio Code
-  ```bash
-  https://code.visualstudio.com/download
-  ```
   
 * GitHub account with access to GitHub Copilot.
   
-  ```bash
-  vscode://github.copilot-chat
-  ```
-
 ## Setup
 
 1. Fork the repository on GitHub to store your project files.
