@@ -150,7 +150,7 @@ GitHub Copilot will generate the necessary modifications to your project files. 
    <details>
        <summary>Here is a good prompt that you can use. </summary>
 
-       add a google map icon next to the restaurant name. The latitude and longitude are provided in karak.json. When the user clicks the map icon, the map with restaurant location should pop-out.
+       add an Azure map icon next to the restaurant name. The latitude and longitude are provided in karak.json. When the user clicks the map icon, the map with restaurant location should pop-out.
    </details>
 
 The final website may resemble the following image: 
