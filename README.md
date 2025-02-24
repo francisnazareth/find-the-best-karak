@@ -163,15 +163,18 @@ The final website may resemble the following image:
 ![Final web app](./Assets/final_website.png)
 
 
-### Task 6: Enhance the Application with Additional Features
+### Task 6: Challenge yourself! Enhance the Application with Additional Features
 
 1. Now, it's your opportunity to showcase your creativity by adding extra features to your application. Consider the following enhancements:
 
    * Create an REST server in Node.JS (or Python) using Copilot, that will receive a JSON payload, print the contents, and return with HTTP 200/OK status.
    ```bash
-   create a Node.js server program that listens to HTTP Posts on a JSON payload and prints the JSON payload contents, and responds with 200 OK.
+   Create a Node.js server program that listens to HTTP Posts on a JSON payload and prints the JSON payload contents, and responds with 200 OK. Enable the server.js program to receive CORS requests from the browser, for the localhost.
    ```
    * Send the user rating and feedback (from the web page script) to the REST server.
+     ```bash
+     Clicking on the submit feedback button should make an Ajax HTTP Post request to http://localhost:3000/payload with the JSON payload containing user's ratings and feedback.
+     ```
    * Provide social media based single-sign on options for users (for example, sign-in using outlook / facebook).
    * For example, you could implement a login stub using the following prompts: 
   
