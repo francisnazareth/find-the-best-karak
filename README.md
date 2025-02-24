@@ -2,42 +2,48 @@
 
 ## Introduction
 
- In this tutorial, we will guide you step-by-step to create an online treasure hunt game called Find the Best Karak. You'll learn how to leverage GitHub Copilot to develop this game using HTML and JavaScript. By the end of this tutorial, you’ll be able to create a fun, engaging treasure hunt game that runs on your local PC.
+ In this tutorial, we will guide you step-by-step to create a website to display and rate the Karak restaurants in Qatar. You'll learn how to leverage GitHub Copilot to develop this website using HTML and JavaScript. By the end of this tutorial, you’ll be able to create an engaging website that runs on your local PC.
 
 ## Prerequisites
 
 * Basic knowledge of HTML and JavaScript
 
-* GitHub account with access to GitHub Copilot.
-
 * Visual Studio Code
   ```bash
   https://code.visualstudio.com/download
+  ```
+  
+* GitHub account with access to GitHub Copilot.
+  
+  ```bash
+  vscode://github.copilot-chat
   ```
 
 ## Setup
 
 1. Fork the repository on GitHub to store your project files.
 
-    ![Fork the repository on GitHub](./Assets/image.png)
+    ![Fork the repository on GitHub](./Assets/fork_repo.png)
 
 2. Give a repository name and description.
 
-    ![Create a new repository scree](./Assets/image-1.png)
+    ![Create a new repository](./Assets/fork_repo_name.png)
 
 3. Copy the repository URL.
 
-    ![Copy the repository URL](./Assets/image-2.png)
+    ![Copy the repository URL](./Assets/copy_repo_url.png)
 
 4. Clone the repository to your local machine using VSCode. (from the Source Control view:  (CTRL + SHIFT + G)) 
 
-    ![Clone the repository in VSCode](./Assets/image-3.png)
+    ![Clone the repository in VSCode](./Assets/clone_repo_vscode.png)
 
 5. Open the project in your code editor.
 
-    ![Open the project in your VSCode](./Assets/image-4.png)
+    ![Open the project in your VSCode](./Assets/open_project_vscode.png)
    
 6. If prompted to trust the authors, click on "Yes, I trust the authors".
+
+7. Inspect the contents of the file karak.json
    
 ## Development
 
@@ -45,127 +51,150 @@
 
 1. Open the Copilot Edits view from the Command Center Copilot menu or press ```Ctrl+Shift+I```
 
-    ![Open Copilot chat](./Assets/image-5.png)
+    ![Open Copilot chat](./Assets/copilot_chat.png)
 
-2. Then drag and drop the clues.json file from Explorer tab to "Working Set" field on the Copilot panel.
+2. Then drag and drop the karak.json file from Explorer tab to "Working Set" field on the Copilot panel.
 
-    ![Drag and Drop file to working set](./Assets/image-14.png)
+    ![Drag and Drop file to working set](./Assets/drag_and_drop_working_set.png)
 
 > [!TIP]
 > Use Copilot Edits to start an AI-powered code editing session and iterate quickly on code changes across multiple files by using natural language. Copilot Edits applies the edits directly in the editor, where you can review them in-place, with the full context of the surrounding code.
 
 ### Task 2: Ask GitHub Copilot to Create your workspace with neccessary files
 
-1. Use your creativity to ask Copilot to create the necessary files for your project. You can provide a prompt that describes the game you want to build and the features you need. For example, you can ask Copilot to generate an HTML file with a heading, paragraph, input field, and submit button, as well as a JavaScript file to fetch clues from a JSON file.
+1. Use your creativity to ask Copilot to create the necessary files for your project. You can provide a prompt that describes the website you want to build and the features you need. For example, you can ask Copilot to generate an HTML file with a heading, paragraph, input field, and submit button, as well as a JavaScript file to fetch clues from a JSON file.
 
    <details>
         <summary>Here is a good prompt that you can use.</summary>
 
-         I'm creating a simple online treasure hunt game called "Find the Best Karak" using HTML and JavaScript. 
-         The game will provide clues based on touristic places in Qatar, and the player will enter the name of the location to proceed. You can find the clues and answers in clues.json.
-         Please help me generate the basic HTML, JavaScript and CSS files needed for this game in the src folder.
-         The HTML file will include a heading, a paragraph to display clues, an input field for the player to enter the location, and a submit button.
-         The JavaScript file will contain the logic for fetching the clues from the clues.json and present it on the html.
+         I'm creating a website called "Find the best Karak tea in Qatar" using HTML and JavaScript. The website should display various restaurant names, description and images in the HTML page. You can find the titles, descriptions and images in karak.json. Please help me generate the basic HTML, JavaScript and CSS files needed for this website in the root folder. The HTML file will include a heading, a paragraph to display description, a star based rating system for the following properties: Taste, Ambience, Price, Fragrance and Overall rating.
 
    </details>
    &nbsp;
 
-2. If everything goes well, GitHub Copilot will generate the necessary files in the "src" folder. Review the generated files and "Accept" the changes if they meet your requirements. If the generated content is not satisfactory, press "Discard" and refine your prompt to improve the results.
+2. If everything goes well, GitHub Copilot will generate the necessary files in the "root" folder. Review the generated files and "Accept" the changes if they meet your requirements. If the generated content is not satisfactory, press "Discard" and refine your prompt to improve the results.
 
-   ![Create Workspace](./Assets/image-6.png)
+   ![Create Workspace](./Assets/copilot_generated_assets.png)
 
-### Task 3: Test the Game
+### Task 3: Test the Website
 
-1. Open new terminal in VSCode from the Terminal menu on the top or press ```Ctrl+Shift+` ```.
+1. If the extension "Live server" is not installed, install the extension "Live Server" in Visual Studio Code. 
 
-    ![Open terminal](./Assets/image-7.png)
+    ![Open terminal](./Assets/live_server_extension.png)
 
-2. Then type ```http-server .```  to run the game in the browser.
+2. Go back to the explorer view, right click the index.html file, and select "Open with Live Server" option. 
 
-   ![Terminal Output](./Assets/image-15.png)
+   ![Terminal Output](./Assets/open_with_live_server.png)
    &nbsp;
 
-> [!TIP]
-> http-server is a simple, zero-configuration command-line static HTTP server. It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development and learning.
+3. Live server should automatically open your browser and display the web page.
 
-3. Open your web browser and navigate to `http://localhost:{port_number}/src/`. For example, if your port number is 8081, you would go to `http://localhost:8081/src/`.
-
-   ![Gameplay](./Assets/image-8.png)
+   ![Initial Generated Site](./Assets/initial_generated_site.png)
 
 > [!IMPORTANT]  
-> You may need to update the `script.js` or `index.html` files to resolve any issues or to enhance the game's functionality.
+> You may need to update the `script.js` or `index.html` files to resolve any issues or to enhance the site's functionality.
 
-### Task 4: Show the Best Karak locations on Map
+If the stars are not clickable, please provide the following prompt:
 
-1. Return to Visual Studio Code and inspect the "Working Set" panel. You should see all the newly created files alongside `clues.json`. If they are not visible, drag and drop them from the Explorer window again.
+```bash
+User should be able to click on the star rating to provide the ratings.
+```
 
-   ![Working Set](./Assets/image-16.png)
+If the property names are not displayed, please provide the following prompt:
 
-2. Ask Copilot to add Google map into your application.
+```bash
+The property names should be displayed
+```
 
+If restaurant entries are not displayed in a two column format, please provide the following prompt:
+
+```bash
+The restaurant items should be displayed in a two column layout
+```
+If the images for each restaurant is too big, please provide the following prompt: 
+
+```bash
+restaurant images should have a maximum width of 400px
+```
+
+### Task 4: Make changes to the website. 
+
+1. Return to Visual Studio Code and inspect the "Working Set" panel. You should see all the newly created files alongside `karak.json`. If they are not visible, drag and drop them from the Explorer window again.
+
+2. Ask Copilot to change the rating criteria of Price to Value for Money.
    <details>
       <summary> Here is a good prompt that you can use </summary>
 
-       I want to add google map on my page. Whenever a user finds the right answer I want to show the location of the place on the map. 
-       You can find the latitude and longtime of the locations in clues.json. Please help me to add the google map to the page and show the location of the places on the map.
-   </details>
-&nbsp;
+         Please change the rating criteria to "Taste, Fragrance, Ambience, Value for Money, and Overall rating"
+ </details>
 
-3. GitHub Copilot will generate the necessary modifications to your project files and prompt you to update the API Key in the HTML file. Review and accept the changes, then replace the placeholder API Key with your own.
+GitHub Copilot will generate the necessary modifications to your project files. Review and accept the changes.
 
-   ![Copilot response](./Assets/image-9.png)
-   &nbsp;
-
-> [!IMPORTANT]  
-> Ask proctors to give you the Google Map API Key.
-
-4. Run and test the application again. When the player enters the correct location, the game should display the location on the map. At the end of the game, all the locations should be visible on the map. If application is not working as expected, review the code and make necessary changes with the help of Copilot.
-
-   ![Website showin the clues location on the map](./Assets/image-17.png)
-
-### Task 5: Show the Images of places in a Gallery View
-
-1. Ask Copilot to add a gallery view to display images of the locations.
-
+3. Ask Copilot to display numerical values for the user ratings (for example, 4 out of 5).
    <details>
       <summary> Here is a good prompt that you can use </summary>
 
-       I want to add a gallery view to my page. 
-       Whenever a user finds the right answer I want to show the image of the place in the gallery. 
-       You can find the image URLs of the locations in clues.json. 
-       Please help me to add the gallery view to the page and show the images of the places in the gallery.
+        Please display the rating values when user selects a rating. For example, Taste: (4/5) when user selects 4 stars.
    </details>
-   &nbsp;
-2. GitHub Copilot will generate the necessary modifications to your project files. Review and accept the changes.
-3. Test the application again. When the player enters the correct location, the game should display the image of the location in the gallery view. At the end of the game, all the images should be visible in the gallery. If application is not working as expected, review the code and make necessary changes with the help of Copilot.
 
-   ![Website showing the images of the locations in the gallery](./Assets/image-18.png)
+4. Ask Copilot to enter their feedback for restaurants.
+   <details>
+      <summary> Here is a good prompt that you can use </summary>
+ 
+       Provide an option for users to enter their feedback as text for each karak shop, and submit the feedback and ratings. 
+   </details>
+
+
+5. Display a banner image for the website
+   <details>
+      <summary> Here is a good prompt that you can use </summary>
+ 
+       Display a scrollable banner image in the website, using images from images/banner folder. The banner image should scroll only when user clicks left or right arrows. Banner images should not scroll if the user is not clicking the arrow.
+   </details>
+
+6. Add social media sharing options.
+   <details>
+       <summary>Here is a good prompt that you can use </summary>
+ 
+        Add an option to share the restaurant review and rating in Facebook, Twitter and Instagram.
+   </details>
+
+7. Add geo-location features.
+   <details>
+       <summary>Here is a good prompt that you can use. </summary>
+
+       add a google map icon next to the restaurant name. The latitude and longitude are provided in karak.json. When the user clicks the map icon, the map with restaurant location should pop-out.
+   </details>
+
+The final website may resemble the following image: 
+
+![Final web app](./Assets/final_website_2.png)
+
 
 ### Task 6: Enhance the Application with Additional Features
 
-1. We have incorporated the location name and a 5-star rating system for each location in the final solution. Now, it's your opportunity to showcase your creativity by adding extra features to your application. Consider the following enhancements:
+1. Now, it's your opportunity to showcase your creativity by adding extra features to your application. Consider the following enhancements:
 
-   * Add a timer to challenge players to complete the game within a certain timeframe.
-   * Enhance the user interface with animations and transitions for a more engaging experience.
-   * Include sound effects and background music to make the game more immersive.
+   * Create an REST server in Node.JS (or Python) using Copilot, that will receive a JSON payload, print the contents, and return with HTTP 200/OK status.
+   * Send the user rating and feedback (from the web page script) to the REST server.
+   * Provide social media based single-sign on options for users (for example, sign-in using outlook / facebook). 
 
 2. Use GitHub Copilot to assist you in implementing these features. Review and test the changes thoroughly to ensure they meet your requirements.
 
-   ![Enhance Application](./Assets/image-19.png)
 
 ### Task 7: Commit and Push Changes
 
 1. Once you are satisfied with the changes, save the files and end your GitHub Copilot edit session by clicking the "Done" button. Commit the changes to your local repository by clicking the source control button on the left panel of VSCode and entering a commit message.
 
-   ![Commit changes](./Assets/image-10.png)
+   ![Commit changes](./Assets/commit_changes.png)
 
 2. You can also use GitHub Copilot to generate a commit message with small magic button in the message box.
 
-   ![Generate commit message](./Assets/image-11.png)
+   ![Generate commit message](./Assets/commit_message_copilot.png)
 
 3. Sync the changes to your GitHub repository
 
-   ![Push changes to GitHub](./Assets/image-12.png)
+   ![Push changes to GitHub](./Assets/sync_changes.png)
 
 ### Task 8: Share your Project
 
@@ -176,4 +205,4 @@
 
 ## Congratulations
 
-![Congratulations](./Assets/image-13.png)
+![Congratulations](./Assets/congrats.png)
