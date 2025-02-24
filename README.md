@@ -153,6 +153,10 @@ GitHub Copilot will generate the necessary modifications to your project files. 
        add an Azure map icon next to the restaurant name. The latitude and longitude are provided in karak.json. When the user clicks the map icon, the map with restaurant location should pop-out.
    </details>
 
+> [!TIP]
+> Ask the proctor for Azure Maps subscription key. 
+
+
 The final website may resemble the following image: 
 
 ![Final web app](./Assets/final_website.png)
@@ -185,10 +189,8 @@ The final website may resemble the following image:
 
 ### Task 8: Share your Project
 
-1. Share the link to your GitHub repository with friends and family to showcase your treasure hunt game
+1. Share the link to your GitHub repository with friends and family to showcase your web app. 
 
-> [!TIP]
-> Check out my online treasure hunt game "Find the Best Karak" on GitHub: [Repository Link]
 
 ## Congratulations
 
