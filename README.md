@@ -137,20 +137,14 @@ GitHub Copilot will generate the necessary modifications to your project files. 
        Provide an option for users to enter their feedback as text for each karak shop, and submit the feedback and ratings. 
    </details>
 
-
-5. Display a banner image for the website
-   <details>
-      <summary> Here is a good prompt that you can use </summary>
- 
-       Display a scrollable banner image in the website, using images from images/banner folder. The banner image should scroll only when user clicks left or right arrows. Banner images should not scroll if the user is not clicking the arrow.
-   </details>
-
-6. Add social media sharing options.
+5. Add social media sharing options.
    <details>
        <summary>Here is a good prompt that you can use </summary>
  
         Add an option to share the restaurant review and rating in Facebook, Twitter and Instagram.
    </details>
+
+6. Change the html header color to dark color with light background text.
 
 7. Add geo-location features.
    <details>
