@@ -155,7 +155,7 @@ GitHub Copilot will generate the necessary modifications to your project files. 
 
 The final website may resemble the following image: 
 
-![Final web app](./Assets/final_website_2.png)
+![Final web app](./Assets/final_website.png)
 
 
 ### Task 6: Enhance the Application with Additional Features
