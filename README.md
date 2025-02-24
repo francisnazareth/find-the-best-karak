@@ -87,6 +87,8 @@
 > [!IMPORTANT]  
 > You may need to update the `script.js` or `index.html` files to resolve any issues or to enhance the site's functionality.
 
+### Task 4: Make changes to the website. 
+
 If the stars are not clickable, please provide the following prompt:
 
 ```bash
@@ -99,18 +101,17 @@ If the property names are not displayed, please provide the following prompt:
 The property names should be displayed
 ```
 
-If restaurant entries are not displayed in a two column format, please provide the following prompt:
+If you would like to display restaurant entries in a two column format, please provide the following prompt:
 
 ```bash
 The restaurant items should be displayed in a two column layout
 ```
+
 If the images for each restaurant is too big, please provide the following prompt: 
 
 ```bash
-restaurant images should have a maximum width of 400px
+Restaurant images should have a maximum width of 400px
 ```
-
-### Task 4: Make changes to the website. 
 
 1. Return to Visual Studio Code and inspect the "Working Set" panel. You should see all the newly created files alongside `karak.json`. If they are not visible, drag and drop them from the Explorer window again.
 
