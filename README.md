@@ -1,4 +1,4 @@
-# Find the Best Karak: GitHub Copilot Tutorial
+# Find the Best Karak Restaurant: GitHub Copilot Tutorial
 
 ## Introduction
 
