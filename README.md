@@ -172,9 +172,18 @@ The final website may resemble the following image:
    create a Node.js server program that listens to HTTP Posts on a JSON payload and prints the JSON payload contents, and responds with 200 OK.
    ```
    * Send the user rating and feedback (from the web page script) to the REST server.
-   * Provide social media based single-sign on options for users (for example, sign-in using outlook / facebook). 
+   * Provide social media based single-sign on options for users (for example, sign-in using outlook / facebook).
+   * For example, you could implement a login stub using the following prompts: 
+  
+     ```bash
+     Add user login option using user's email or phone number.Login button should be on the top-right of the header section.
+     ```
 
-1. Use GitHub Copilot to assist you in implementing these features. Review and test the changes thoroughly to ensure they meet your requirements.
+     ```bash
+     Once the user logs in, the login email or phone number should be stored in a session variable. the login button display should be replaced by the user email / phone number.
+     ```
+
+  Use GitHub Copilot to assist you in implementing these features. Review and test the changes thoroughly to ensure they meet your requirements.
 
 
 ### Task 7: Commit and Push Changes
