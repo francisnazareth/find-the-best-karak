@@ -105,3 +105,21 @@ main {
     vertical-align: middle;
     margin-left: 10px;
 }
+
+.share-buttons {
+    margin-top: 10px;
+}
+
+.share-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #00008b; /* Dark blue background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.share-buttons button:hover {
+    background-color: #000080; /* Slightly darker dark blue on hover */
+}

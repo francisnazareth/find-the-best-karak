@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             const restaurantList = document.getElementById('restaurant-list');
-            data.forEach((restaurant, index) => {
+            data.slice(1).forEach((restaurant, index) => { // Skip the first item
                 const restaurantDiv = document.createElement('div');
                 restaurantDiv.classList.add('restaurant');
                 
@@ -17,6 +17,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span>Ambience: ${generateStars('ambience', index)}</span> <span class="rating-value" id="ambience-value-${index}"></span>
                         <span>Value for Money: ${generateStars('value', index)}</span> <span class="rating-value" id="value-value-${index}"></span>
                         <span>Overall: ${generateStars('overall', index)}</span> <span class="rating-value" id="overall-value-${index}"></span>
+                    </div>
+                    <div class="feedback">
+                        <textarea id="feedback-${index}" placeholder="Enter your feedback here..."></textarea>
+                        <button onclick="submitFeedback(${index})">Submit</button>
+                    </div>
+                    <div class="share-buttons">
+                        <button onclick="shareOnFacebook(${index})">Share on Facebook</button>
+                        <button onclick="shareOnTwitter(${index})">Share on Twitter</button>
+                        <button onclick="shareOnInstagram(${index})">Share on Instagram</button>
                     </div>
                 `;
                 
@@ -54,6 +63,38 @@ document.addEventListener('click', (event) => {
     }
 });
 
+function submitFeedback(index) {
+    const feedback = document.getElementById(`feedback-${index}`).value;
+    const ratings = {
+        taste: document.getElementById(`taste-value-${index}`).textContent,
+        fragrance: document.getElementById(`fragrance-value-${index}`).textContent,
+        ambience: document.getElementById(`ambience-value-${index}`).textContent,
+        value: document.getElementById(`value-value-${index}`).textContent,
+        overall: document.getElementById(`overall-value-${index}`).textContent,
+    };
+
+    console.log(`Feedback for item ${index}:`, feedback);
+    console.log(`Ratings for item ${index}:`, ratings);
+}
+
+function shareOnFacebook(index) {
+    const feedback = document.getElementById(`feedback-${index}`).value;
+    const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(feedback)}`;
+    window.open(url, '_blank');
+}
+
+function shareOnTwitter(index) {
+    const feedback = document.getElementById(`feedback-${index}`).value;
+    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(feedback)}`;
+    window.open(url, '_blank');
+}
+
+function shareOnInstagram(index) {
+    const feedback = document.getElementById(`feedback-${index}`).value;
+    const url = `https://www.instagram.com/?url=${encodeURIComponent(feedback)}`;
+    window.open(url, '_blank');
+}
+
 function showMap(lat, lng) {
     const mapPopup = document.getElementById('map-popup');
     mapPopup.classList.add('active');
@@ -62,7 +103,7 @@ function showMap(lat, lng) {
         zoom: 15,
         authOptions: {
             authType: 'subscriptionKey',
-            subscriptionKey: '1I2dh8976mptMWlwk5qIv68RqJlc34FqTpPajafmnUN783DUa5EcJQQJ99BBAC5RqLJJ0deGAAAgAZMP1Myx'
+            subscriptionKey: 'AZURE_MAPS_SUBSCRIPTION_KEY'
         }
     });
     map.markers.add(
